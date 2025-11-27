@@ -1,0 +1,47 @@
+name: arrow_puzzle
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+2 #2 yüklendi 3 yüklenecek
+
+environment:
+  sdk: ^3.10.0-290.4.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.5.1
+  google_mobile_ads: ^6.0.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # --- DÜZELTME 1: İKON KLASÖRÜNÜ VE SESLERİ KAYDET ---
+  assets:
+    - assets/sounds/
+    - assets/icon/ # İkonun bulunduğu klasörü buraya ekledik
+
+flutter_icons:
+  android: true # Sadece 'launcher_icon' yerine 'true' kullanmak daha geneldir
+  ios: true
+
+  # İKON DOSYASININ ADI (E:\Projeler\arrow_puzzle\assets\icon\icon.png)
+  image_path: "assets/icon/icon.png"
+
+  # Adaptif ikon arka planı (Düz renk)
+  adaptive_icon_background: "#1A1A2E"
+
+  # DÜZELTME 2: HATA VEREN ÖN PLAN SATIRINI SİLİYORUZ!
+  # adaptive_icon_foreground: "assets/icon/icon_foreground.png"

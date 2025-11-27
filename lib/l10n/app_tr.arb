@@ -1,0 +1,91 @@
+{
+  "@@locale": "tr",
+  "gameTitle": "Neon Yılan Kaçış",
+  "@gameTitle": {
+    "description": "Oyunun ana başlığı"
+  },
+  "levelCompletedDialogTitle": "LEVEL TAMAMLANDI!",
+  "@levelCompletedDialogTitle": {
+    "description": "Bölüm bittiğinde çıkan dialog başlığı"
+  },
+  "timeLabel": "Süre:",
+  "@timeLabel": {
+    "description": "İstatistik panelindeki süre etiketi"
+  },
+  "difficultyLabel": "Zorluk:",
+  "@difficultyLabel": {
+    "description": "İstatistik panelindeki zorluk etiketi"
+  },
+  "nextLevelButton": "SONRAKİ LEVEL",
+  "@nextLevelButton": {
+    "description": "Bir sonraki levele geçiş butonu metni"
+  },
+  "hourWarningMessage": "1 SAAT OLDU! MOLA VER?",
+  "@hourWarningMessage": {
+    "description": "Uzun süre oynayınca çıkan uyarı mesajı"
+  },
+  "loadingLevelMessage": "Level {levelNumber} Hazırlanıyor...",
+  "@loadingLevelMessage": {
+    "description": "Level yüklenirken gösterilen mesaj. {levelNumber} bir parametredir.",
+    "placeholders": {
+      "levelNumber": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "gameOverTitle": "OYUN BİTTİ",
+  "@gameOverTitle": {
+    "description": "Canlar bittiğinde çıkan başlık"
+  },
+  "gameOverStats": "Level {levelNumber} - Süre: {time}",
+  "@gameOverStats": {
+    "description": "Oyun bitti ekranındaki istatistikler. İki parametre alır.",
+    "placeholders": {
+      "levelNumber": {
+        "type": "int",
+        "example": "5"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:30"
+      }
+    }
+  },
+  "restartButton": "BAŞA DÖN",
+  "@restartButton": {
+    "description": "Oyunu yeniden başlatma butonu"
+  },
+  "panelLevelTitle": "LEVEL {levelNumber}",
+  "@panelLevelTitle": {
+    "description": "Üst paneldeki level başlığı",
+    "placeholders": {
+      "levelNumber": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "statTotal": "TOPLAM",
+  "@statTotal": {
+    "description": "Toplam süre istatistik etiketi"
+  },
+  "statTime": "SÜRE",
+  "@statTime": {
+    "description": "Bölüm süresi istatistik etiketi"
+  },
+  "statRemaining": "KALAN",
+  "@statRemaining": {
+    "description": "Kalan yılan sayısı istatistik etiketi"
+  },
+  "bannerAdPlaceholder": "REKLAM YÜKLENİYOR...",
+  "@bannerAdPlaceholder": {
+    "description": "Reklam yüklenirken gösterilen yer tutucu metin"
+  },
+  "difficultySimple": "Basit",
+  "difficultyEasy": "Kolay",
+  "difficultyNormal": "Normal",
+  "difficultyHard": "Zor",
+  "difficultyVeryHard": "Çok Zor",
+  "difficultyNightmare": "Kabus"
+}
