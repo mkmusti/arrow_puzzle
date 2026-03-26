@@ -2,7 +2,7 @@ name: arrow_puzzle
 description: "A new Flutter project."
 publish_to: 'none'
 
-version: 1.0.0+2 #2 yüklendi 3 yüklenecek
+version: 1.0.0+3 #3 yüklendi 4 yüklenecek
 
 environment:
   sdk: ^3.10.0-290.4.beta

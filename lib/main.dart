@@ -277,7 +277,9 @@ class GameController extends ChangeNotifier {
     isGameOver = false;
     isLevelSuccess = false;
     levelSeconds = 0;
-    if (level == 1 || lives <= 0) lives = 3;
+
+    // ESKİ KOD: if (level == 1 || lives <= 0) lives = 3;
+    lives = 3; // YENİ KOD: Her yeni level başladığında canları 3'e tamamla.
 
     snakes.clear();
     _disposeControllers();
